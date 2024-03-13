@@ -82,3 +82,9 @@ body{
 .piano-keys .black.active{
     background: linear-gradient(-180deg, #313131 50%, #545454 100%);
 }
+
+@media screen and (max-width: 450px) {
+    .wrapper {
+        transform: rotateZ(90deg);
+    }
+}
