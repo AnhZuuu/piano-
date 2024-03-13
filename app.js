@@ -28,7 +28,7 @@ function playPiano(key){
         keyClick.classList.add('active');
         const remmoveActive = setInterval(() => {
             keyClick.classList.remove('active')
-        }, 500);
+        }, 50);
     }
 }
 let keys = document.querySelectorAll('.key');
